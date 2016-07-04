@@ -1,4 +1,3 @@
-
 li{
 	list-style: none;
 }
@@ -7,7 +6,21 @@ li{
 	width: 100px;
 }
 
+#menuSource{
+	margin-top: 300px;
+	margin-left: 300px;
+	width: 150px;
+}
+
 .menuImg{
 	border-radius: 50%;
 	width: 85px;
+}
+
+.tooltip{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
+	padding: 2px;
 }
