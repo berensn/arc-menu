@@ -38,10 +38,10 @@ $(document).ready(function(){
         // Assign each element it's position
         $(this).css({
         	position: 'absolute',
-        	left: x + 200 + 'px',
-        	top: y + 200 + 'px'
+        	left: x - 100 + 'px',
+        	top: y - 100 + 'px'
         });
-		
+		console.log(x + " " + y);
 		// Assign each child element it's position
 		if(index == 0 || index == 1){
 	        $(this).children("div").css({
